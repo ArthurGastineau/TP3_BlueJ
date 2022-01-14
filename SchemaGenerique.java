@@ -5,7 +5,7 @@ import java.util.*;
  * @author  GASTINEAU Arthur
  * @version v0.2
  */
-public abstract class SchemaGenerique
+public class SchemaGenerique
 {
     // les variables d'instance sont des tableaux dynamiques contenant les éléments du schéma
     protected Vector<Entree> Entrees;

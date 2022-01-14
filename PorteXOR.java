@@ -12,7 +12,7 @@ public class PorteXOR extends Circuit
     private Fil fentree2;
 
     /**
-     * Constructeur d'objets de classe PorteET
+     * Constructeur d'objets de classe PorteXOR
      * 
      * @param (Fil) le fil relié à la 1e entrée
      * @param (Fil) le fil relié à la 2e entrée

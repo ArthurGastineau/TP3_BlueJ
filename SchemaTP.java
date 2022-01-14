@@ -8,7 +8,7 @@
  * 
  * A l'intérieur, le schéma gère les différents constituants d'un schéma. En les 
  * instanciant, il établit les relations entre eux. Cette version opère avec
- * des accès indfférenciés (pas d'utilisation des classes Entrée et Sortie. Cette
+ * des accès dfférenciés (utilisation des classes Entrée et Sortie). Cette
  * version permet la réalisation d'un schéma à plusieurs entrées et plusieurs sorties.
  * 
  * @author Arthur GASTINEAU

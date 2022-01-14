@@ -34,7 +34,7 @@ public class PorteOU extends Circuit
      */
     public void calculer()
     {
-        // Si un des fils en entrée est à 1 alors on affecte ua fil en sortie la valeur future 1
+        // Si un des fils en entrée est à 1 alors on affecte au fil en sortie la valeur future 1
         if (fentree.getValeurActuelle() == fentree.UN || fentree2.getValeurActuelle() == fentree2.UN)
         {
             fsortie.setValeur(fsortie.UN);

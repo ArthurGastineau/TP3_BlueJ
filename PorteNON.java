@@ -33,9 +33,10 @@ public class PorteNON extends Circuit
         if (fentree.getValeurActuelle() != fentree.X)
         {
             // On affecte au fil en sortie comme ValeurFuture le résultat de l'opération NON sur le fil en entrée
-            if (fentree.getValeurActuelle() == fentree.UN) fsortie.setValeur(fentree.ZERO);
-            if (fentree.getValeurActuelle() == fentree.ZERO) fsortie.setValeur(fentree.UN);
+            if (fentree.getValeurActuelle() == fentree.UN) fsortie.setValeur(fsortie.ZERO);
+            if (fentree.getValeurActuelle() == fentree.ZERO) fsortie.setValeur(fsortie.UN);
         }
+        else fsortie.setValeur(fsortie.X);
     }
     /**
      * Méthode toString permettant de retourner un texte représentant l'opération logique effectuée

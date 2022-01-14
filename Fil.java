@@ -1,4 +1,3 @@
-
 /**
  * la classe Fil implémente une liaison dans un schéma logique
  * 

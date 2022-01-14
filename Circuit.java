@@ -1,7 +1,7 @@
 
 /**
  * Cette classe abstraite permet de définir qu'un circuit est constitué d'au moins deux fils :
- * un en entrée du cirucit, l'autre ne sortie
+ * un en entrée du circuit, l'autre ne sortie
  *
  * @author  GASTINEAU Arthur & LAMOUR Guillaume
  * @version v0.1
