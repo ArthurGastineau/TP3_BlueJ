@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Acces
+comment0.text=\r\n\ Cette\ classe\ r\u00E9alise\ un\ acc\u00E8s\ du\ simulateur\r\n\ \r\n\ @author\ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.0\r\n
+comment1.params=s
+comment1.target=Acces(java.lang.String)
+comment1.text=\r\n\ Constructeur\ avec\ le\ nom\ en\ param\u00E8tre\ d'appel\r\n\ \r\n\ @param\ (String)\ le\ nom\ souhait\u00E9\r\n
+comment2.params=s\ f
+comment2.target=Acces(java.lang.String,\ Fil)
+comment2.text=\r\n\ Constructeur\ avec\ \ nom\ et\ fil\ associ\u00E9\r\n\ \r\n\ @param\ (String)\ le\ nom\ souhait\u00E9\r\n\ @param\ (Fil)\ le\ fil\ associ\u00E9\r\n
+comment3.params=
+comment3.target=int\ getSens()
+comment3.text=\r\n\ M\u00E9thode\ abstraite\ \ qui\ permet\ de\ lire\ le\ sens\ et\ devra\ \u00EAtre\ impl\u00E9ment\u00E9\ dnas\ les\ classes\ filles\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ \ (int)\ le\ sens\ de\ l'acc\u00E8s\r\n
+numComments=4
