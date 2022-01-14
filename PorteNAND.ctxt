@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PorteNAND
+comment0.text=\r\n\ Cette\ classe\ permet\ la\ mod\u00E9lisation\ de\ la\ porte\ logique\ NAND\r\n\r\n\ @author\ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.1\r\n
+comment1.params=fentree1\ fentree2\ fsortie1
+comment1.target=PorteNAND(Fil,\ Fil,\ Fil)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ PorteNAND\r\n\ \r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ 1e\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ 2e\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ sortie\r\n
+comment2.params=
+comment2.target=void\ calculer()
+comment2.text=\r\n\ M\u00E9thode\ calculer\ permettant\ d'effectuer\ l'op\u00E9ration\ logique\ NAND\ au\ fils\ en\ entr\u00E9e\ et\ d'affecter\ le\ r\u00E9sultat\ en\ sortie\r\n\r\n\ @param\ \ (aucun)\r\n\ @return\ \ (aucun)\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ M\u00E9thode\ toString\ permettant\ de\ retourner\ un\ texte\ repr\u00E9sentant\ l'op\u00E9ration\ logique\ effectu\u00E9e\r\n\r\n\ @param\ \ (aucun)\r\n\ @return\ \ (String)\ le\ texte\ d\u00E9crivant\ l'op\u00E9ration\ logique\ NAND\r\n
+numComments=4

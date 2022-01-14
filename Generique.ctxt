@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Generique
+comment0.text=\r\n\ Cette\ classe\ permet\ la\ g\u00E9n\u00E9ralisation\ des\ classes\ Acc\u00E8s\ et\ Fil\r\n\ \r\n\ @author\ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.1\r\n
+comment1.params=
+comment1.target=Generique()
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ Generique\ -\ version\ anonyme\r\n
+comment2.params=s
+comment2.target=Generique(java.lang.String)
+comment2.text=\r\n\ Constructeur\ de\ la\ classe\ Generique\ -\ version\ nomm\u00E9e\r\n\ \r\n\ @param\ (String)\ nom\ souhait\u00E9\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNom()
+comment3.text=\r\n\ M\u00E9thode\ getNom\ permettant\ de\ r\u00E9cup\u00E9rer\ l'attribut\ nom\ \r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ \ (String)\ le\ nom\ de\ l'acc\u00E8s\r\n
+comment4.params=s
+comment4.target=void\ setNom(java.lang.String)
+comment4.text=\r\n\ M\u00E9thode\ setNom\ permettant\ de\ modifier\ l'attribut\ nom\r\n\ \r\n\ @param\ \ (String)\ le\ nom\ affect\u00E9\r\n\ @return\ \ (aucun)\ \r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ M\u00E9thode\ abstraite\ toString\ permettant\ de\ r\u00E9cup\u00E9rer\ l'\u00E9tat\ sous\ forme\ d'une\ string\r\n\ \r\n\ @return\ \ (String)\ le\ texte\ d\u00E9crivant\ la\ valeur\ logique\ pr\u00E9sente\ sur\ l'\u00E9l\u00E9ment\r\n
+numComments=6
