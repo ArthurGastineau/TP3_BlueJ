@@ -12,7 +12,7 @@ public class PorteXOR extends Circuit
     private Fil fentree2;
 
     /**
-     * Constructeur d'objets de classe PorteET
+     * Constructeur d'objets de classe PorteXOR avec nom non-défini
      * 
      * @param (Fil) le fil relié à la 1e entrée
      * @param (Fil) le fil relié à la 2e entrée
@@ -22,6 +22,22 @@ public class PorteXOR extends Circuit
     {
         // invocation du constructeur de la classe parent Circuit
         super(fentree1,fsortie1);
+        // initialisation de la variable d'instance
+        this.fentree2 = fentree2;
+    }
+    
+    /**
+     * Constructeur d'objets de classe PorteXOR modifiant le nom
+     * 
+     * @param (String) le nom du circuit
+     * @param (Fil) le fil relié à la 1e entrée
+     * @param (Fil) le fil relié à la 2e entrée
+     * @param (Fil) le fil relié à la 1e sortie
+     */
+    public PorteXOR(String s,Fil fentree1, Fil fentree2, Fil fsortie1)
+    {
+        // invocation du constructeur de la classe parent Circuit
+        super(s,fentree1,fsortie1);
         // initialisation de la variable d'instance
         this.fentree2 = fentree2;
     }

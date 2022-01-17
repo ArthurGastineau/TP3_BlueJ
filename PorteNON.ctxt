@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PorteNON
+comment0.text=\r\n\ Cette\ classe\ permet\ la\ mod\u00E9lisation\ de\ la\ porte\ logique\ NON\r\n\r\n\ @author\ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.1\r\n
+comment1.params=fentree1\ fsortie1
+comment1.target=PorteNON(Fil,\ Fil)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ PorteNON\ avec\ nom\ non-d\u00E9fin\r\n\ \r\n\ @param\ (Fil)\ le\ fil\ en\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ en\ sortie\r\n
+comment2.params=s\ fentree1\ fsortie1
+comment2.target=PorteNON(java.lang.String,\ Fil,\ Fil)
+comment2.text=\r\n\ Constructeur\ d'objets\ de\ classe\ PorteNON\ modifiant\ le\ nom\r\n\ \r\n\ @param\ (String)\ le\ nom\ du\ cricuit\r\n\ @param\ (Fil)\ le\ fil\ en\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ en\ sortie\r\n
+comment3.params=
+comment3.target=void\ calculer()
+comment3.text=\r\n\ M\u00E9thode\ calculer\ permettant\ d'effectuer\ l'op\u00E9ration\ logique\ NON\ au\ fil\ en\ entr\u00E9e\ et\ d'affecter\ le\ r\u00E9sultat\ en\ sortie\r\n\r\n\ @param\ (aucun)\r\n\ @return\ (aucun)\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ M\u00E9thode\ toString\ permettant\ de\ retourner\ un\ texte\ repr\u00E9sentant\ l'op\u00E9ration\ logique\ effectu\u00E9e\r\n\r\n\ @param\ \ (aucun)\r\n\ @return\ \ (String)\ le\ texte\ d\u00E9crivant\ l'op\u00E9ration\ logique\ NON\r\n
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Circuit
+comment0.text=\r\n\ Cette\ classe\ abstraite\ permet\ de\ d\u00E9finir\ qu'un\ circuit\ est\ constitu\u00E9\ d'au\ moins\ deux\ fils\ \:\r\n\ un\ en\ entr\u00E9e\ du\ cicruit,\ l'autre\ ne\ sortie\r\n\r\n\ @author\ \ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.1\r\n
+comment1.params=s\ fentree\ fsortie
+comment1.target=Circuit(java.lang.String,\ Fil,\ Fil)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ Circuit\ en\ modifiant\ son\ nom\r\n\r\n\ @param\ (Fil)\ 1e\ fil\ en\ entr\u00E9e\ du\ circuit\r\n\ @param\ (Fil)\ 1e\ fil\ en\ sortie\ du\ circuit\r\n
+comment2.params=fentree\ fsortie
+comment2.target=Circuit(Fil,\ Fil)
+comment2.text=\r\n\ Constructeur\ de\ la\ classe\ Circuit\ avec\ nom\ non-d\u00E9fini\r\n\r\n\ @param\ (Fil)\ 1e\ fil\ en\ entr\u00E9e\ du\ circuit\r\n\ @param\ (Fil)\ 1e\ fil\ en\ sortie\ du\ circuit\r\n
+comment3.params=
+comment3.target=void\ calculer()
+comment3.text=\r\n\ M\u00E9thode\ abstraite\ calculer\ qui\ sera\ d\u00E9finit\ par\ les\ classes\ filles\ permettant\ de\ d\u00E9terminer\r\n\ l\u2019\u00E9tat\ de\ sortie\ d\u2019une\ porte\ logique\ en\ fonction\ des\ stimulis\ appliqu\u00E9s\ en\ entr\u00E9es\ de\ la\ porte\r\n
+numComments=4

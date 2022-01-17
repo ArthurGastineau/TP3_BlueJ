@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MonInterface
+comment0.text=\r\n\ Cette\ classe\ permet\ d'impl\u00E9menter\ une\ interface\ Graphique\ \u00E0\ l'application\ \r\n\ simulateur\ de\ circuits\ logiques.\ Cette\ classe\ contient\ les\ m\u00E9thodes\ n\u00E9cessaires\r\n\ \u00E0\ la\ construction\ des\ diff\u00E9rents\ objets\ graphiques\ ainsi\ qu'au\ traitement\ des\r\n\ \u00E9v\u00E8nements\ (clic\ sur\ un\ bouton\ par\ l'utilisateur\ par\ exemple.\ Dans\ cette\r\n\ premi\u00E8re\ version,\ elle\ affiche\ uniquement\ une\ fen\u00EAtre\ avec\ un\ titre.\r\n\r\n\ @author\ Arthur\ Gastineau\ &\ Guillaume\ Lamour\r\n\ @version\ 15/01/2022\r\n
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ D\u00E9marrage\ de\ l'application.\ Cette\ m\u00E9thode\ permet\ d'instancier\ tous\ les\ objets\ graphiques\ et\ de\r\n\ les\ disposer\ de\ fa\u00E7on\ \u00E0\ obtenir\ une\ interface\ graphique\ organis\u00E9e\ facilement\ utilisable.\r\n\ \r\n\ @param\ (Stage)\ la\ fen\u00EAtre\ principale\ de\ l'interface\ graphique\r\n\ @return\ (aucun)\r\n
+comment2.params=e
+comment2.target=void\ handle(javafx.event.ActionEvent)
+comment2.text=\r\n\ Traitement\ des\ actions\r\n\ \r\n\ @param\ (ActionEvent)\ l'\u00E9v\u00E8nement\ qui\ a\ eu\ lieu\r\n\ @return\ (aucun)\r\n
+comment3.params=
+comment3.target=void\ stop()
+comment3.text=\r\n\ Arr\u00EAt\ de\ l'application\r\n\ \r\n\ @param\ (aucun)\r\n\ @return\ (aucun)\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ main\ \:\ m\u00E9thode\ principale\ permettant\ de\ lancer\ l'application\r\n\ \r\n\ @param\ (String[])\ les\ arguments\ donn\u00E9s\ \u00E0\ la\ m\u00E9thode\ main\r\n\ @return\ (aucun)\r\n
+numComments=5

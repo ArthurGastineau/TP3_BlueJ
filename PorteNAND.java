@@ -1,66 +1,59 @@
-
-/**
- * Cette classe permet la modélisation de la porte logique NAND
+ /**
+ * Cette classe permet de définir et simuler une porte NAND.
  *
- * @author GASTINEAU Arthur & LAMOUR Guillaume
- * @version v0.1
+ * @author (LAMOUR Guillaume & GASTINEAU Arthur)
+ * @version (15/01/2022)
  */
-// hérité de Circuit
 public class PorteNAND extends Circuit
 {
-    // déclaration des variables d'instanciation
+    // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private Fil fentree2;
-    private Fil fconducteur1;
-    private Fil fconducteur2;
-    private PorteNON PorteNON1;
-    private PorteNON PorteNON2;
-    private PorteOU PorteOU1;
 
     /**
-     * Constructeur d'objets de classe PorteNAND
+     * Constructeur d'objets de classe Porte NAND avec nom non défini
      * 
      * @param (Fil) le fil relié à la 1e entrée
      * @param (Fil) le fil relié à la 2e entrée
      * @param (Fil) le fil relié à la sortie
      */
-    public PorteNAND(Fil fentree1,Fil fentree2,Fil fsortie1)
+    public PorteNAND(Fil fentree, Fil fentree2, Fil fsortie)
     {
-        // invocation du constructeur de la classe parent Circuit
-        super(fentree1,fsortie1);
         // initialisation des variables d'instance
+        super(fentree, fsortie);
         this.fentree2 = fentree2;
-        fconducteur1 = new Fil("fil conducteur1");
-        fconducteur2 = new Fil("fil conducteur2");
-        PorteNON1 = new PorteNON(fentree1,fconducteur1);
-        PorteNON2 = new PorteNON(fentree2,fconducteur2);
-        PorteOU1 = new PorteOU(fconducteur1,fconducteur2,fsortie1);
+    }
+    
+    /*
+     * Constructeur d'objets de classe Porte NAND avec nom modifié
+     * 
+     * @param (String) le nom du Circuit
+     * @param (Fil) le fil relié à la 1e entrée
+     * @param (Fil) le fil relié à la 2e entrée
+     * @param (Fil) le fil relié à la sortie
+     */
+    public PorteNAND(String s, Fil fentree, Fil fentree2, Fil fsortie)
+    {
+        // initialisation des variables d'instance
+        super(s, fentree, fsortie);
+        this.fentree2 = fentree2;
     }
 
     /**
-     * Méthode calculer permettant d'effectuer l'opération logique NAND au fils en entrée et d'affecter le résultat en sortie
+     * Méthode calculer : permet de calculer l'état de sortie fsortie
+     * d'une porte NAND à partie des états d'entrées fentree et fentree2
      *
-     * @param  (aucun)
-     * @return  (aucun)
      */
     public void calculer()
     {
-        // On effectue l'opération NON sur le 1e fil en entrée et on affecte le résultat au 1e fil conducteur
-        PorteNON1.calculer();
-        // On propage l'information du 1e fil ocnducteur
-        fconducteur1.propager();
-        // On effectue l'opération NON sur le 2e fil en entrée et on affecte le résultat au 2e fil conducteur
-        PorteNON2.calculer();
-        // On propage l'information du 2e fil ocnducteur
-        fconducteur2.propager();
-        // on effectue l'opération OU sur les 2 fils conducteur et on affecte le résultat au fil en sortie
-        PorteOU1.calculer();
+        if(fentree.getValeurActuelle() == Fil.ZERO || fentree2.getValeurActuelle() == Fil.ZERO) fsortie.setValeur(Fil.UN);
+        else if (fentree.getValeurActuelle() == Fil.UN&&fentree2.getValeurActuelle() == Fil.UN) fsortie.setValeur(Fil.ZERO);
+        else fsortie.setValeur(Fil.X);  
     }
     
     /**
-     * Méthode toString permettant de retourner un texte représentant l'opération logique effectuée
-     *
-     * @param  (aucun)
-     * @return  (String) le texte décrivant l'opération logique NAND
+     * permet de récupérer les valeurs d'entrées et de sortie sous forme d'une string
+     * 
+     * @return  (String) le texte décrivant la valeur logique présente sur la liaison
      */
     public String toString()
     {

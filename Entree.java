@@ -104,6 +104,4 @@ public class Entree extends Acces
             +a2.getValeur());
         
     }
-
-    
 }

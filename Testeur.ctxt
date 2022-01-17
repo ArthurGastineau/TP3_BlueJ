@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Testeur
+comment0.text=\r\n\ Cette\ classe\ permet\ de\ tester\ le\ sch\u00E9ma\r\n\ \r\n\ @author\ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.2\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Methode\ main\ -\ seule\ et\ unique\ m\u00E9thode\ de\ la\ classe\r\n\ C'est\ elle\ que\ l'on\ ex\u00E9cute\ pour\ tester\ le\ simulateur\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ \ \ (aucun)\r\n
+comment2.params=
+comment2.target=int\ lireValeurFil()
+comment2.text=\r\n\ Cette\ m\u00E9thode\ permet\ d'acqu\u00E9rir\ au\ clavier\ une\ valeur\ \u00E0\ mettre\ sur\ un\ fil\r\n\ La\ valeur\ Fil.IDEM\ signifie\ "m\u00EAme\ valeur\ que\ pr\u00E9c\u00E9demment"\r\n\ Nota\ \:\ cette\ m\u00E9thode\ est\ statique\ car\ elle\ est\ appel\u00E9e\ par\ main\ qui\ est\r\n\ elle-m\u00EAme\ statique\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ (int)\ valeur\ du\ fil\r\n
+comment3.params=
+comment3.target=boolean\ finBoucle()
+comment3.text=\r\n\ Cette\ m\u00E9thode\ permet\ de\ demander\ \u00E0\ l'utilisateur\ s'il\ souhaite\ terminer\r\n\ la\ simulation\r\n\ Nota\ \:\ cette\ m\u00E9thode\ est\ statique\ car\ elle\ est\ appel\u00E9e\ par\ main\ qui\ est\r\n\ elle-m\u00EAme\ statique\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ (boolean)\ VRAI\ si\ fin\ souhait\u00E9e\r\n
+numComments=4

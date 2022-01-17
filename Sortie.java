@@ -8,7 +8,6 @@
 //hérité de Acces
 public class Sortie extends Acces
 {
-
     /**
      * Constructeur de la classe Sortie (version avec nom)
      * 

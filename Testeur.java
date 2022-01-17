@@ -38,7 +38,7 @@ public class Testeur
             // effectuer un pas de simulation
             schema1.calculeUnPas();
             // récupérer l'état de la sortie du schéma et afficher le résultat
-            System.out.print("La sortie du schéma vaut ");
+            System.out.print("Les sortie du schéma valent ");
             System.out.println(schema1.getSortieString());
             // Terminaison de la boucle
             fini = finBoucle();

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bistable_SR
+comment0.text=\r\n\ La\ classe\ Bistable_SR\ impl\u00E9mente\ un\ sch\u00E9ma\ de\ type\ Bistable\ SR.\r\n\ \r\n\ @author\ Arthur\ Gastineau\ &\ LAMOUR\ Guillaume,\ IUT\ de\ Nantes\r\n\ @version\ Janvier\ 2022\r\n
+comment1.params=
+comment1.target=Bistable_SR()
+comment1.text=\r\n\ Constructeur\ \:\ il\ cr\u00E9\u00E9e\ le\ sch\u00E9ma,\ c'est\ \u00E0\ dire\ les\ \u00E9lements\ reli\u00E9s\ entre\ eux\r\n
+numComments=2

@@ -57,5 +57,4 @@ public abstract class Generique
      * @return  (String) le texte décrivant la valeur logique présente sur l'élément
      */
     public abstract String toString();
-    
 }

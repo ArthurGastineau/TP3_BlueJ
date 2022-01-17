@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SchemaTP
+comment0.text=\r\n\ La\ classe\ SchemaTP\ impl\u00E9mente\ un\ sch\u00E9ma\ \u00E0\ simuler.\r\n\ De\ l'ext\u00E9rieur,\ le\ sch\u00E9ma\ est\ inconnu\ \:\ on\ sait\ seulement\ qu'il\ a\ des\ entr\u00E9es\r\n\ et\ des\ sorties.\ Ce\ qui\ int\u00E9resse\r\n\ l'utilisateur\ de\ ce\ sch\u00E9ma,\ c'est\ de\ \:\r\n\ -\ pouvoir\ appliquer\ des\ stimuli\ sur\ les\ entr\u00E9es\r\n50\r\n\ -\ faire\ un\ pas\ de\ propagation\r\n\ -\ observer\ le\ r\u00E9sultat\ en\ sortie\r\n\r\n\ A\ l'int\u00E9rieur,\ le\ sch\u00E9ma\ g\u00E8re\ les\ diff\u00E9rents\ constituants\ d'un\ sch\u00E9ma.\ En\ les\r\n\ instanciant,\ il\ \u00E9tablit\ les\ relations\ entre\ eux.\ Cette\ version\ op\u00E8re\ avec\r\n\ des\ acc\u00E8s\ diff\u00E9renci\u00E9s\ (utilisation\ des\ classes\ Entr\u00E9e\ et\ Sortie).\ Cette\r\n\ version\ permet\ la\ r\u00E9alisation\ d'un\ sch\u00E9ma\ \u00E0\ 4\ entr\u00E9es\ et\ 1\ sortie.\r\n\r\n\ @author\ Arthur\ GASTINEAU\ &\ Guillaume\ LAMOUR\r\n\ @version\ v0.4\r\n
+comment1.params=
+comment1.target=SchemaTP()
+comment1.text=\r\n\ Constructeur\ \:\ il\ cr\u00E9\u00E9e\ le\ sch\u00E9ma,\ c'est\ \u00E0\ dire\ les\ \u00E9lements\ reli\u00E9s\ entre\r\n\ \ \ \ eux\r\n
+numComments=2

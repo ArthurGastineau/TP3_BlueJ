@@ -12,7 +12,7 @@ public class PorteOU extends Circuit
     private Fil fentree2;
 
     /**
-     * Constructeur d'objets de classe PorteOU
+     * Constructeur d'objets de classe PorteOU avec nom non-défini
      * 
      * @param (Fil) le fil relié à la 1e entrée
      * @param (Fil) le fil relié à la 2e entrée
@@ -25,6 +25,22 @@ public class PorteOU extends Circuit
         // initialisation de la variable d'instance
         this.fentree2 = fentree2;
     }
+    
+    /**
+     * Constructeur d'objets de classe PorteOU modifiant le nom
+     * 
+     * @param (String) le nom du circuit
+     * @param (Fil) le fil relié à la 1e entrée
+     * @param (Fil) le fil relié à la 2e entrée
+     * @param (Fil) le fil relié à la sortie
+     */
+    public PorteOU(String s,Fil fentree1,Fil fentree2,Fil fsortie1)
+    {
+        // invocation du constructeur de la classe parent Circuit
+        super(s,fentree1,fsortie1);
+        // initialisation de la variable d'instance
+        this.fentree2 = fentree2;
+    }
 
     /**
      * Méthode calculer permettant d'effectuer l'opération logique OU aux fils en entrée et d'affecter le résultat en sortie
@@ -34,13 +50,13 @@ public class PorteOU extends Circuit
      */
     public void calculer()
     {
-        // Si un des fils en entrée est à 1 alors on affecte ua fil en sortie la valeur future 1
+        // Si un des fils en entrée est à 1 alors on affecte au fil en sortie la valeur future 1
         if (fentree.getValeurActuelle() == fentree.UN || fentree2.getValeurActuelle() == fentree2.UN)
         {
             fsortie.setValeur(fsortie.UN);
         }
         // Autrement si les deux sont à zéro alors on affecte au fil en sortie la valeur future 0
-        else if (fentree.getValeurActuelle() == fentree.ZERO || fentree2.getValeurActuelle() == fentree2.ZERO) 
+        else if (fentree.getValeurActuelle() == fentree.ZERO && fentree2.getValeurActuelle() == fentree2.ZERO) 
         {
             fsortie.setValeur(fsortie.ZERO);
         }

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PorteNAND
+comment0.text=\r\n\ Cette\ classe\ permet\ de\ d\u00E9finir\ et\ simuler\ une\ porte\ NAND.\r\n\r\n\ @author\ (LAMOUR\ Guillaume\ &\ GASTINEAU\ Arthur)\r\n\ @version\ (15/01/2022)\r\n
+comment1.params=fentree\ fentree2\ fsortie
+comment1.target=PorteNAND(Fil,\ Fil,\ Fil)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Porte\ NAND\ avec\ nom\ non\ d\u00E9fini\r\n\ \r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ 1e\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ 2e\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ sortie\r\n
+comment2.params=s\ fentree\ fentree2\ fsortie
+comment2.target=PorteNAND(java.lang.String,\ Fil,\ Fil,\ Fil)
+comment2.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Porte\ NAND\ avec\ nom\ modifi\u00E9\r\n\ \r\n\ @param\ (String)\ le\ nom\ du\ Circuit\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ 1e\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ 2e\ entr\u00E9e\r\n\ @param\ (Fil)\ le\ fil\ reli\u00E9\ \u00E0\ la\ sortie\r\n
+comment3.params=
+comment3.target=void\ calculer()
+comment3.text=\r\n\ M\u00E9thode\ calculer\ \:\ permet\ de\ calculer\ l'\u00E9tat\ de\ sortie\ fsortie\r\n\ d'une\ porte\ NAND\ \u00E0\ partie\ des\ \u00E9tats\ d'entr\u00E9es\ fentree\ et\ fentree2\r\n\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ permet\ de\ r\u00E9cup\u00E9rer\ les\ valeurs\ d'entr\u00E9es\ et\ de\ sortie\ sous\ forme\ d'une\ string\r\n\ \r\n\ @return\ \ (String)\ le\ texte\ d\u00E9crivant\ la\ valeur\ logique\ pr\u00E9sente\ sur\ la\ liaison\r\n
+numComments=5

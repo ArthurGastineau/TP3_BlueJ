@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Entree
+comment0.text=\r\n\ Cette\ classe\ permet\ de\ sp\u00E9cialiser\ la\ classe\ Acces\r\n\ \r\n\ @author\ GASTINEAU\ Arthur\ &\ LAMOUR\ Guillaume\r\n\ @version\ v0.1\r\n
+comment1.params=s
+comment1.target=Entree(java.lang.String)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ Entree\ (version\ avec\ nom)\r\n\ \r\n\ @param\ (String)\ le\ nom\ de\ la\ sortie\r\n
+comment2.params=s\ f
+comment2.target=Entree(java.lang.String,\ Fil)
+comment2.text=\r\n\ Constructeur\ de\ la\ classe\ Entree\ (version\ avec\ nom\ et\ fil)\r\n\ \r\n\ @param\ (String)\ le\ nom\ de\ la\ sortie\r\n\ @param\ (Fil)\ le\ nom\ du\ fil\ connect\u00E9\ \u00E0\ la\ sortie\r\n
+comment3.params=val
+comment3.target=void\ setValeur(int)
+comment3.text=\r\n\ M\u00E9thode\ setValeur\ permettant\ de\ charger\ une\ valeur\ sur\ l'acc\u00E8s.\ Nota\ \:\ si\ aucun\ fil\ valide\ n'a\r\n\ \u00E9t\u00E9\ reli\u00E9\ \u00E0\ l'acc\u00E8s,\ la\ valeur\ sera\ perdue...\r\n\ \r\n\ @param\ \ (int)\ la\ valeur\ \u00E0\ mettre\ sur\ l'acc\u00E8s\ qui\ est\ alors\ une\ entr\u00E9e\r\n\ @return\ \ (aucun)\r\n
+comment4.params=
+comment4.target=int\ getValeur()
+comment4.text=\r\n\ M\u00E9thode\ getValeur\ permettant\ de\ lire\ la\ valeur\ pr\u00E9sente\ sur\ l'acc\u00E8s.\ Nota\ \:\ si\ aucun\ fil\ valide\ n'a\r\n\ \u00E9t\u00E9\ reli\u00E9\ \u00E0\ l'acc\u00E8s,\ le\ r\u00E9sultat\ sera\ "ind\u00E9termin\u00E9"\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ \ (int)\ la\ valeur\ de\ l'acc\u00E8s\ qui\ est\ une\ entr\u00E9e\r\n
+comment5.params=
+comment5.target=int\ getSens()
+comment5.text=\r\n\ M\u00E9thode\ getSens\ pour\ lire\ le\ sens\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ \ (int)\ le\ sens\ de\ l'acc\u00E8s\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ M\u00E9thode\ toString\ permet\ de\ r\u00E9cup\u00E9rer\ l'\u00E9tat\ sous\ forme\ d'une\ string\r\n\ \r\n\ @return\ \ (String)\ le\ texte\ d\u00E9crivant\ la\ valeur\ logique\ pr\u00E9sente\ sur\ l'\u00E9l\u00E9ment\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ Methode\ main\ permettant\ de\ tester\ la\ classe\ Entree\r\n\ \r\n\ @param\ \ (aucun)\r\n\ @return\ \ \ (aucun)\r\n
+numComments=8

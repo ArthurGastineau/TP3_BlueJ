@@ -10,7 +10,7 @@
 public class PorteNON extends Circuit
 {
     /**
-     * Constructeur d'objets de classe PorteNON
+     * Constructeur d'objets de classe PorteNON avec nom non-défin
      * 
      * @param (Fil) le fil en entrée
      * @param (Fil) le fil en sortie
@@ -19,6 +19,19 @@ public class PorteNON extends Circuit
     {
         // invocation du constructeur de la classe parent Circuit
         super(fentree1,fsortie1);
+    }
+    
+    /**
+     * Constructeur d'objets de classe PorteNON modifiant le nom
+     * 
+     * @param (String) le nom du cricuit
+     * @param (Fil) le fil en entrée
+     * @param (Fil) le fil en sortie
+     */
+    public PorteNON(String s,Fil fentree1,Fil fsortie1)
+    {
+        // invocation du constructeur de la classe parent Circuit
+        super(s,fentree1,fsortie1);
     }
 
     /**
@@ -33,9 +46,11 @@ public class PorteNON extends Circuit
         if (fentree.getValeurActuelle() != fentree.X)
         {
             // On affecte au fil en sortie comme ValeurFuture le résultat de l'opération NON sur le fil en entrée
-            if (fentree.getValeurActuelle() == fentree.UN) fsortie.setValeur(fentree.ZERO);
-            if (fentree.getValeurActuelle() == fentree.ZERO) fsortie.setValeur(fentree.UN);
+            if (fentree.getValeurActuelle() == fentree.UN) fsortie.setValeur(fsortie.ZERO);
+            if (fentree.getValeurActuelle() == fentree.ZERO) fsortie.setValeur(fsortie.UN);
         }
+        // Autrement on définit la valeur du fil en sortie comme indéfini
+        else fsortie.setValeur(fsortie.X);
     }
     /**
      * Méthode toString permettant de retourner un texte représentant l'opération logique effectuée

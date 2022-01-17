@@ -5,7 +5,7 @@ import java.util.*;
  * @author  GASTINEAU Arthur
  * @version v0.2
  */
-public abstract class SchemaGenerique
+public class SchemaGenerique
 {
     // les variables d'instance sont des tableaux dynamiques contenant les éléments du schéma
     protected Vector<Entree> Entrees;
@@ -100,6 +100,21 @@ public abstract class SchemaGenerique
         }
         return s;
     }
+    
+    /**
+     * Méthode getSortieStringInterface permettant de récupérer (sous forme texte) la valeur présente à une sortie
+     * 
+     * @param (int) le numéro de la sortie
+     * @return (String) les valeur présentent en sortie
+     */
+    public String getSortieStringInterface(int id_sortie) {
+        // on déclare une chaîne de caractère vide
+        String s = "";
+        // on ajoute à la chaîne de caractère la valeur en sortie si elle n'ets pas défini on ajoute "inconnu"
+        if (Sorties.get(id_sortie).getValeur() == Fil.X) s = s.concat(" - inconnu ");
+        else s = s.concat(Sorties.get(id_sortie).toString());
+        return s;
+    }
 
     /**
      * Méthode calculeUnPas permettant de réaliser un pas de simulation dans le schéma
@@ -137,5 +152,4 @@ public abstract class SchemaGenerique
         }
         System.out.println();
     }
-
 }
